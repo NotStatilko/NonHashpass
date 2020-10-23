@@ -1,0 +1,1 @@
+from NonHashpass import hashpass
