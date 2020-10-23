@@ -35,7 +35,7 @@ def hashpass(phrase: str, unique_word: str, iterations: int) -> shake_256:
         TypeError: If you pass to function bytes instead of str.
     '''
     initkey = sha3_512(''.join((phrase, unique_word, str(iterations))).encode()).digest()
-    # pass_hash is seed of PRNG which shuffle list of hashfuncs
+    # initkey is seed of PRNG which shuffle list of hashfuncs
 
     random_seed = random; random_seed.seed(initkey)
     hashfuncs_copy = hashfuncs[:]; random_seed.shuffle(hashfuncs_copy)
