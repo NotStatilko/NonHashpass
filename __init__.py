@@ -1,1 +1,1 @@
-from NonHashpass import hashpass
+from .NonHashpass import hashpass
