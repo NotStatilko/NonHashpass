@@ -13,6 +13,8 @@ As a `phrase` i suggest Bitcoin's seed-phrase defined in [**BIP39**](https://en.
 git clone https://github.com/NotStatilko/NonHashpass
 ```
 
+**WARNING**: For better security i suggest you to use `iterations` count **starting from 10,000,000**. It may take some time for generating passwords but it will be very extremly hard to brute-force such, even if you have bad `phrase` (a.k.a `master_key`) or it leaked to the attackers. Feel free to set this argument to any number **from 10M to 100M** or even 1 billion. Or even to 100B! Or eve....eh, nevermind. I can talk about this forever.
+
 **Use:**
 ```
 $ python3
