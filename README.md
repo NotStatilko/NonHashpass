@@ -1,4 +1,5 @@
 # NonHashpass
+#### It's for experimental purposes only. Please use [Scrypt](https://en.wikipedia.org/wiki/Scrypt) or [uiScrypt](https://github.com/NotStatilko/uiScrypt) instead!!!!
 ##### There is also [UI Version of NonHashpass](https://github.com/NotStatilko/uiNonHashpass)
 
 **NonHashpass** is _Password Based Key Derivation Function_ (_PBKDF_) based on **PRNG** and **14** hash-functions.
